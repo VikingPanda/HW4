@@ -196,8 +196,12 @@ class CLIP(nn.Module):
         
         #image_embeddings = self.vision_encoder(pixel_values).last_hidden_state[:, 0, :].mean(dim=1)  # [CLS] token or mean pooling
         #eos_index = input_ids.argmax(dim=-1)  # find the index of the EOS token for each sequence
-        image_embeddings = self.vision_encoder(pixel_values).last_hidden_state[:, 0, :]  # [CLS] token
-        text_embeddings = self.text_encoder(input_ids, attention_mask=attention_mask).last_hidden_state[:, 0, :]  # get the hidden state at the EOS token position
+        image_embeddings = self.vision_encoder(pixel_values).last_hidden_state[:, 0, :].mean(dim=1)  # [CLS] token or mean pooling
+        text_outputs = self.text_encoder(input_ids, attention_mask=attention_mask)
+        text_embeddings = text_outputs.last_hidden_state[torch.arange(input_ids.size(0)), input_ids.argmax(dim=-1), :]  # get the hidden state at the EOS token position
+
+        #image_embeddings = self.vision_encoder(pixel_values).last_hidden_state[:, 0, :]  # [CLS] token
+        #text_embeddings = self.text_encoder(input_ids, attention_mask=attention_mask).last_hidden_state[:, 0, :]  # get the hidden state at the EOS token position
         projected_image = self.projection_vision(image_embeddings)
         projected_text = self.projection_text(text_embeddings)  
         
