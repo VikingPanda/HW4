@@ -193,9 +193,11 @@ class CLIP(nn.Module):
         #getting pixel values of image-> pass through vision encoder to get vision features
         #return vision features, text features, and logit values (for loss computation)
         #3 lines image embeddings, 3 for text embeddings, and 3 for projection and 1 for logits
-        image_embeddings = self.vision_encoder(pixel_values).last_hidden_state[:, 0, :].mean(dim=1)  # [CLS] token or mean pooling
-        eos_index = input_ids.argmax(dim=-1)  # find the index of the EOS token for each sequence
-        text_embeddings = self.text_encoder(input_ids, attention_mask=attention_mask).last_hidden_state[:,eos_index,:]  # get the hidden state at the EOS token position
+        
+        #image_embeddings = self.vision_encoder(pixel_values).last_hidden_state[:, 0, :].mean(dim=1)  # [CLS] token or mean pooling
+        #eos_index = input_ids.argmax(dim=-1)  # find the index of the EOS token for each sequence
+        image_embeddings = self.vision_encoder(pixel_values).last_hidden_state[:, 0, :]  # [CLS] token
+        text_embeddings = self.text_encoder(input_ids, attention_mask=attention_mask).last_hidden_state[:, 0, :]  # get the hidden state at the EOS token position
         projected_image = self.projection_vision(image_embeddings)
         projected_text = self.projection_text(text_embeddings)  
         
