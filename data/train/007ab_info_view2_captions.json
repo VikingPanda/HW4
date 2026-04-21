@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "amanda is the ego car.",
+        "image_file": "tux_train/007ab_02_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scenario.",
+        "image_file": "tux_train/007ab_02_im.jpg"
+    },
+    {
+        "caption": "The track is abyss.",
+        "image_file": "tux_train/007ab_02_im.jpg"
+    },
+    {
+        "caption": "1 karts are in front of the ego car.",
+        "image_file": "tux_train/007ab_02_im.jpg"
+    },
+    {
+        "caption": "1 karts are behind the ego car.",
+        "image_file": "tux_train/007ab_02_im.jpg"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "question": "What kart is the ego car?",
+        "answer": "emule",
+        "image_file": "tux_train/00679_04_im.jpg"
+    },
+    {
+        "question": "How many karts are there in the scenario?",
+        "answer": "1",
+        "image_file": "tux_train/00679_04_im.jpg"
+    },
+    {
+        "question": "What track is this?",
+        "answer": "gran_paradiso_island",
+        "image_file": "tux_train/00679_04_im.jpg"
+    },
+    {
+        "question": "How many karts are to the left of the ego car?",
+        "answer": "0",
+        "image_file": "tux_train/00679_04_im.jpg"
+    },
+    {
+        "question": "How many karts are to the right of the ego car?",
+        "answer": "0",
+        "image_file": "tux_train/00679_04_im.jpg"
+    },
+    {
+        "question": "How many karts are in front of the ego car?",
+        "answer": "0",
+        "image_file": "tux_train/00679_04_im.jpg"
+    },
+    {
+        "question": "How many karts are behind the ego car?",
+        "answer": "0",
+        "image_file": "tux_train/00679_04_im.jpg"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What kart is the ego car?",
+        "answer": "xue",
+        "image_file": "tux_train/0002c_09_im.jpg"
+    },
+    {
+        "question": "How many karts are there in the scenario?",
+        "answer": "2",
+        "image_file": "tux_train/0002c_09_im.jpg"
+    },
+    {
+        "question": "What track is this?",
+        "answer": "snowmountain",
+        "image_file": "tux_train/0002c_09_im.jpg"
+    },
+    {
+        "question": "Is sara_the_wizard to the left or right of the ego car?",
+        "answer": "left",
+        "image_file": "tux_train/0002c_09_im.jpg"
+    },
+    {
+        "question": "Is sara_the_wizard in front of or behind the ego car?",
+        "answer": "front",
+        "image_file": "tux_train/0002c_09_im.jpg"
+    },
+    {
+        "question": "Where is sara_the_wizard relative to the ego car?",
+        "answer": "left and front",
+        "image_file": "tux_train/0002c_09_im.jpg"
+    },
+    {
+        "question": "How many karts are to the left of the ego car?",
+        "answer": "1",
+        "image_file": "tux_train/0002c_09_im.jpg"
+    },
+    {
+        "question": "How many karts are to the right of the ego car?",
+        "answer": "0",
+        "image_file": "tux_train/0002c_09_im.jpg"
+    },
+    {
+        "question": "How many karts are in front of the ego car?",
+        "answer": "1",
+        "image_file": "tux_train/0002c_09_im.jpg"
+    },
+    {
+        "question": "How many karts are behind the ego car?",
+        "answer": "0",
+        "image_file": "tux_train/0002c_09_im.jpg"
+    }
+]

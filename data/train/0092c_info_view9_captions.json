@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "sara_the_wizard is the ego car.",
+        "image_file": "tux_train/0092c_09_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scenario.",
+        "image_file": "tux_train/0092c_09_im.jpg"
+    },
+    {
+        "caption": "The track is olivermath.",
+        "image_file": "tux_train/0092c_09_im.jpg"
+    },
+    {
+        "caption": "1 karts are in front of the ego car.",
+        "image_file": "tux_train/0092c_09_im.jpg"
+    },
+    {
+        "caption": "1 karts are behind the ego car.",
+        "image_file": "tux_train/0092c_09_im.jpg"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What kart is the ego car?",
+        "answer": "gnu",
+        "image_file": "tux_train/0053c_07_im.jpg"
+    },
+    {
+        "question": "How many karts are there in the scenario?",
+        "answer": "2",
+        "image_file": "tux_train/0053c_07_im.jpg"
+    },
+    {
+        "question": "What track is this?",
+        "answer": "abyss",
+        "image_file": "tux_train/0053c_07_im.jpg"
+    },
+    {
+        "question": "Is gavroche to the left or right of the ego car?",
+        "answer": "left",
+        "image_file": "tux_train/0053c_07_im.jpg"
+    },
+    {
+        "question": "Is gavroche in front of or behind the ego car?",
+        "answer": "behind",
+        "image_file": "tux_train/0053c_07_im.jpg"
+    },
+    {
+        "question": "Where is gavroche relative to the ego car?",
+        "answer": "left and behind",
+        "image_file": "tux_train/0053c_07_im.jpg"
+    },
+    {
+        "question": "How many karts are to the left of the ego car?",
+        "answer": "1",
+        "image_file": "tux_train/0053c_07_im.jpg"
+    },
+    {
+        "question": "How many karts are to the right of the ego car?",
+        "answer": "0",
+        "image_file": "tux_train/0053c_07_im.jpg"
+    },
+    {
+        "question": "How many karts are in front of the ego car?",
+        "answer": "0",
+        "image_file": "tux_train/0053c_07_im.jpg"
+    },
+    {
+        "question": "How many karts are behind the ego car?",
+        "answer": "1",
+        "image_file": "tux_train/0053c_07_im.jpg"
+    }
+]

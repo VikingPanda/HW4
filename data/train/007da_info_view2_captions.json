@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "beastie is the ego car.",
+        "image_file": "tux_train/007da_02_im.jpg"
+    },
+    {
+        "caption": "There are 5 karts in the scenario.",
+        "image_file": "tux_train/007da_02_im.jpg"
+    },
+    {
+        "caption": "The track is snowmountain.",
+        "image_file": "tux_train/007da_02_im.jpg"
+    },
+    {
+        "caption": "3 karts are in front of the ego car.",
+        "image_file": "tux_train/007da_02_im.jpg"
+    },
+    {
+        "caption": "1 karts are behind the ego car.",
+        "image_file": "tux_train/007da_02_im.jpg"
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "question": "What kart is the ego car?",
+        "answer": "tux",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "How many karts are there in the scenario?",
+        "answer": "5",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "What track is this?",
+        "answer": "sandtrack",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "Is wilber to the left or right of the ego car?",
+        "answer": "left",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "Is hexley to the left or right of the ego car?",
+        "answer": "left",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "Is adiumy to the left or right of the ego car?",
+        "answer": "left",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "Is gnu to the left or right of the ego car?",
+        "answer": "right",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "Is wilber in front of or behind the ego car?",
+        "answer": "front",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "Is hexley in front of or behind the ego car?",
+        "answer": "front",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "Is adiumy in front of or behind the ego car?",
+        "answer": "behind",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "Is gnu in front of or behind the ego car?",
+        "answer": "front",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "Where is wilber relative to the ego car?",
+        "answer": "left and front",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "Where is hexley relative to the ego car?",
+        "answer": "left and front",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "Where is adiumy relative to the ego car?",
+        "answer": "left and behind",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "Where is gnu relative to the ego car?",
+        "answer": "right and front",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "How many karts are to the left of the ego car?",
+        "answer": "3",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "How many karts are to the right of the ego car?",
+        "answer": "1",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "How many karts are in front of the ego car?",
+        "answer": "3",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    },
+    {
+        "question": "How many karts are behind the ego car?",
+        "answer": "1",
+        "image_file": "tux_train/0091b_01_im.jpg"
+    }
+]

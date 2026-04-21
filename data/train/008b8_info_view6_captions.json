@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "xue is the ego car.",
+        "image_file": "tux_train/008b8_06_im.jpg"
+    },
+    {
+        "caption": "There are 3 karts in the scenario.",
+        "image_file": "tux_train/008b8_06_im.jpg"
+    },
+    {
+        "caption": "The track is cocoa_temple.",
+        "image_file": "tux_train/008b8_06_im.jpg"
+    },
+    {
+        "caption": "1 karts are in front of the ego car.",
+        "image_file": "tux_train/008b8_06_im.jpg"
+    },
+    {
+        "caption": "1 karts are behind the ego car.",
+        "image_file": "tux_train/008b8_06_im.jpg"
+    }
+]

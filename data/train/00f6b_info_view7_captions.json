@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "xue is the ego car.",
+        "image_file": "tux_train/00f6b_07_im.jpg"
+    },
+    {
+        "caption": "There are 1 karts in the scenario.",
+        "image_file": "tux_train/00f6b_07_im.jpg"
+    },
+    {
+        "caption": "The track is zengarden.",
+        "image_file": "tux_train/00f6b_07_im.jpg"
+    },
+    {
+        "caption": "0 karts are in front of the ego car.",
+        "image_file": "tux_train/00f6b_07_im.jpg"
+    },
+    {
+        "caption": "0 karts are behind the ego car.",
+        "image_file": "tux_train/00f6b_07_im.jpg"
+    }
+]

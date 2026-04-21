@@ -1,0 +1,97 @@
+[
+    {
+        "question": "What kart is the ego car?",
+        "answer": "adiumy",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "How many karts are there in the scenario?",
+        "answer": "5",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "What track is this?",
+        "answer": "volcano_island",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "Is gavroche to the left or right of the ego car?",
+        "answer": "left",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "Is amanda to the left or right of the ego car?",
+        "answer": "right",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "Is nolok to the left or right of the ego car?",
+        "answer": "left",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "Is kiki to the left or right of the ego car?",
+        "answer": "left",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "Is gavroche in front of or behind the ego car?",
+        "answer": "front",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "Is amanda in front of or behind the ego car?",
+        "answer": "front",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "Is nolok in front of or behind the ego car?",
+        "answer": "front",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "Is kiki in front of or behind the ego car?",
+        "answer": "front",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "Where is gavroche relative to the ego car?",
+        "answer": "left and front",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "Where is amanda relative to the ego car?",
+        "answer": "right and front",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "Where is nolok relative to the ego car?",
+        "answer": "left and front",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "Where is kiki relative to the ego car?",
+        "answer": "left and front",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "How many karts are to the left of the ego car?",
+        "answer": "3",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "How many karts are to the right of the ego car?",
+        "answer": "1",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "How many karts are in front of the ego car?",
+        "answer": "4",
+        "image_file": "tux_train/00437_01_im.jpg"
+    },
+    {
+        "question": "How many karts are behind the ego car?",
+        "answer": "0",
+        "image_file": "tux_train/00437_01_im.jpg"
+    }
+]
