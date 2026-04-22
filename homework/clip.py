@@ -257,7 +257,7 @@ def compute_clip_loss(
 
     batch_size = projected_image.shape[0]
     labels = torch.arange(batch_size).to(projected_image.device)
-
+    
     logits_per_image = logit_scale * torch.matmul(projected_image, projected_text.T)
     loss_i = nn.CrossEntropyLoss()(logits_per_image, labels)
     logits_per_text = logit_scale * torch.matmul(projected_text, projected_image.T)
@@ -284,10 +284,10 @@ def get_target_modules_for_lora(model: nn.Module) -> list[str]:
 def train(
     data_dir: Path | None = None,
     output_dir: str = "clip_model",
-    num_train_epochs: float = 0.75,  # for debugging purpose, increase this once the dry run works
+    num_train_epochs: float = 0.5,  # for debugging purpose, increase this once the dry run works
     per_device_train_batch_size: int = 1024,
     gradient_accumulation_steps: int = 1,
-    learning_rate: float = 5e-3,
+    learning_rate: float = 5e-5,
     num_workers: int = 16,
 ):
     vlm = BaseVLM()
