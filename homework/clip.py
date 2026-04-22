@@ -216,8 +216,8 @@ class CLIP(nn.Module):
         projected_image = self.projection_vision(image_embeddings)
         projected_text = self.projection_text(text_embeddings) 
 
-        projected_image = F.normalize(projected_image,p=2, dim=-1,keepdim=True)
-        projected_text = F.normalize(projected_text,p=2, dim=-1,keepdim=True)
+        projected_image = F.normalize(projected_image,p=2, dim=-1)
+        projected_text = F.normalize(projected_text,p=2, dim=-1)
         
         return projected_image, projected_text, self.logit_scale.exp()
     
