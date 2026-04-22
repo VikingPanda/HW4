@@ -287,7 +287,7 @@ def train(
     num_train_epochs: float = 0.5,  # for debugging purpose, increase this once the dry run works
     per_device_train_batch_size: int = 1024,
     gradient_accumulation_steps: int = 1,
-    learning_rate: float = 5e-5,
+    learning_rate: float = 5e-4,
     num_workers: int = 16,
 ):
     vlm = BaseVLM()
@@ -309,7 +309,7 @@ def train(
     peft_config = LoraConfig(
         task_type=TaskType.FEATURE_EXTRACTION,
         inference_mode=False,
-        r=8,
+        r=12,
         lora_alpha=32,
         lora_dropout=0.0,
         # target_modules="all-linear",
