@@ -252,8 +252,7 @@ def compute_clip_loss(
     #you can use the logit_scale to scale the cosine similarity before computing the loss
     #return the computed loss
 
-    projected_image = F.normalize(projected_image,p=2, dim=-1)
-    projected_text = F.normalize(projected_text,p=2, dim=-1)
+
 
 
     batch_size = projected_image.shape[0]
