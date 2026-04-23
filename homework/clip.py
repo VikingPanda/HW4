@@ -209,10 +209,7 @@ class CLIP(nn.Module):
 
         batch_size = text_embeddings.shape[0]
         text_embeddings = text_embeddings[torch.arange(batch_size), sequence_length]  # get the hidden state at the EOS token position
-        #text_embeddings = text_outputs.last_hidden_state[torch.arange(input_ids.size(0)), input_ids.argmax(dim=-1), :]  # get the hidden state at the EOS token position
-
-        #image_embeddings = self.vision_encoder(pixel_values).last_hidden_state[:, 0, :]  # [CLS] token
-        #text_embeddings = self.text_encoder(input_ids, attention_mask=attention_mask).last_hidden_state[:, 0, :]  # get the hidden state at the EOS token position
+        
         projected_image = self.projection_vision(image_embeddings)
         projected_text = self.projection_text(text_embeddings) 
 
@@ -257,7 +254,6 @@ def compute_clip_loss(
 
     batch_size = projected_image.shape[0]
     labels = torch.arange(batch_size).to(projected_image.device)
-    
     logits_per_image = logit_scale * torch.matmul(projected_image, projected_text.T)
     loss_i = nn.CrossEntropyLoss()(logits_per_image, labels)
     logits_per_text = logit_scale * torch.matmul(projected_text, projected_image.T)
@@ -285,7 +281,7 @@ def train(
     data_dir: Path | None = None,
     output_dir: str = "clip_model",
     num_train_epochs: float = 0.5,  # for debugging purpose, increase this once the dry run works
-    per_device_train_batch_size: int = 1024,
+    per_device_train_batch_size: int = 64,
     gradient_accumulation_steps: int = 1,
     learning_rate: float = 5e-4,
     num_workers: int = 16,
@@ -310,7 +306,7 @@ def train(
         task_type=TaskType.FEATURE_EXTRACTION,
         inference_mode=False,
         r=8,
-        lora_alpha=64,
+        lora_alpha=32,
         lora_dropout=0.0,
         # target_modules="all-linear",
         target_modules=get_target_modules_for_lora(model),
